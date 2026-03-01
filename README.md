@@ -42,15 +42,8 @@ Chaque étape est structurée de la façon suivante :
             └── java    
 ```
 
+## Étapes
 
-## Étape 01
-
-Dans cette étape, nous verrons
-- Comment écrire notre premier programme Java
-- Comment l'exécuter avec IntelliJ Idea
-
-## Étape 02
-
-Dans cette étape, nous verrons
-- Une autre façon d'écrire un programma Java
-
+- [Étape 00](etape-00/README.md) : Configurer Java et IntelliJ
+- [Étape 01](etape-01/README.md) : Hello World en Java et lancer un programme
+- [Étape 02](etape-02/README.md) : Hello World "classique" en Java
