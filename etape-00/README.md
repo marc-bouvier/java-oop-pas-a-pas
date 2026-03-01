@@ -7,7 +7,7 @@ est bien installé et configuré dans le projet.
 
 > Vous devriez voir ceci
 > 
-> ![](.img/configurer-sdk/etape-00-settings-project-sdk-ok.png)
+> ![](img/configurer-sdk/etape-00-settings-project-sdk-ok.png)
 > 
 > Si c'est le cas, **il n'y a rien à faire**.
 > 
@@ -19,18 +19,18 @@ Si aucun SDK Java n'a été détecté, SDK : `<No SDK>`
 
 - SDK : Ouvrir le menu déroulant
 
-![](.img/configurer-sdk/etape-00-project-structure-no-sdk.png)
+![](img/configurer-sdk/etape-00-project-structure-no-sdk.png)
 
 ---
 
 - Cliquer du **"Download JDK"** (Télécharger JDK)
 
-![](.img/configurer-sdk/etape-00-no-sdk-download-sdk.png)
+![](img/configurer-sdk/etape-00-no-sdk-download-sdk.png)
 
 - Ouvrir la liste déroulante "Vendor"
 - Sélectionner **"Eclipse Temurin (AdoptOpenJDK HotSpot)"**
 
-![](.img/configurer-sdk/etape-00-sdk-download-sdk-eclipse-temurin-adoptopenjdk-25.png)
+![](img/configurer-sdk/etape-00-sdk-download-sdk-eclipse-temurin-adoptopenjdk-25.png)
 
 ---
 
@@ -38,19 +38,19 @@ La fenêtre devrait ressembler à ceci :
 
 - Cliquer sur **"Download"** (Télécharger)
 
-![](.img/configurer-sdk/etape-00-sdk-download-sdk-click-download.png)
+![](img/configurer-sdk/etape-00-sdk-download-sdk-click-download.png)
 
 ---
 
 Après quelques instants, vous devriez avoir ceci :
 
-![](.img/configurer-sdk/etape-00-settings-project-sdk-ok.png)
+![](img/configurer-sdk/etape-00-settings-project-sdk-ok.png)
 
 ---
 
 Confirmer la configuration du projet en cliquant sur **OK**.
 
-![](.img/configurer-sdk/etape-00-file-project-structure-OK.png)
+![](img/configurer-sdk/etape-00-file-project-structure-OK.png)
 
 ---
 
@@ -68,19 +68,19 @@ Pour activer/désactiver des plugins.
 
 **1 - Ouvrir les "Settings"** 
 
-![](.img/desactiver-plugins/etape-00-ouvrir-settings.png)
+![](img/desactiver-plugins/etape-00-ouvrir-settings.png)
 
 ---
 
 **2 - Se positionner sur "Plugins"**
 
-![img.png](.img/desactiver-plugins/etape-00-se-positionner-sur-settings.png)
+![img.png](img/desactiver-plugins/etape-00-se-positionner-sur-settings.png)
 
 ---
 
 **3 - Filtrer les plugins "bundled"**
 
-![](.img/desactiver-plugins/etape-00-filtrer-plugins-bundled.png)
+![](img/desactiver-plugins/etape-00-filtrer-plugins-bundled.png)
 
 ---
 
@@ -89,11 +89,11 @@ Pour activer/désactiver des plugins.
 - Trouver un plugin nommé "MCP Server"
 - Le désactiver en décochant la case
 
-![](.img/desactiver-plugins/etape-00-desactiver-plugin-mcp-server.png)
+![](img/desactiver-plugins/etape-00-desactiver-plugin-mcp-server.png)
 
 Quand il est désactivé, il doit **être grisé**.
 
-![](.img/desactiver-plugins/etape-00-plugin-mcp-server-desactive.png)
+![](img/desactiver-plugins/etape-00-plugin-mcp-server-desactive.png)
 
 ---
 
@@ -109,13 +109,13 @@ car ils peuvent consommer beaucoup de ressources :
 - Machine Learning Find Usages
 - Machine Learning in Search Everywhere
 
-![](.img/desactiver-plugins/etape-00-plugins-pouvant-etre-desactives.png)
+![](img/desactiver-plugins/etape-00-plugins-pouvant-etre-desactives.png)
 
 ---
 
 **5 - Valider la configuration en appuyant sur OK**
 
-![](.img/desactiver-plugins/etape-00-valider-modification-plugins.png)
+![](img/desactiver-plugins/etape-00-valider-modification-plugins.png)
 
 ---
 
@@ -123,4 +123,4 @@ car ils peuvent consommer beaucoup de ressources :
 
 En cliquant sur "Restart" (ou "Redémarrer")
 
-![](.img/desactiver-plugins/etape-00-redemarrer-apres-modifie-plugins.png)
+![](img/desactiver-plugins/etape-00-redemarrer-apres-modifie-plugins.png)

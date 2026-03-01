@@ -18,14 +18,14 @@ Mais il faut écrire du code pour pouvoir en faire un vrai programme Java.
 
 Il est situé à l'emplacement suivant : [exo/src/main/java/Etape01.java](exo/src/main/java/Etape01.java)
 
-![](.img/etape-01-ouvrir-etape-01-java.png)
+![](img/etape-01-ouvrir-etape-01-java.png)
 
 ---
 
 > ‼️ Si un bandeau indique que le SDK n'est pas configuré, 
 > [se rendre à l'étape 00](../etape-00/README.md) pour régler le problème
 > 
-> ![](../etape-00/.img/configurer-sdk/etape-00-sdk-banniere-sdk-is-not-defined-download-sdk.png)
+> ![](../etape-00/img/configurer-sdk/etape-00-sdk-banniere-sdk-is-not-defined-download-sdk.png)
 
 ---
 
@@ -49,7 +49,7 @@ IO.println("Hello World!");
 
 Le résultat devrait ressembler à ceci : 
 
-![](.img/etape-01-main-hello-world-ide-ok.png)
+![](img/etape-01-main-hello-world-ide-ok.png)
 
 ---
 
@@ -57,13 +57,13 @@ Le résultat devrait ressembler à ceci :
 
 Pour exécuter le programme on peut cliquer sur le symbole 
 
-![](.img/etape-01-executer-main-idea.png)
+![](img/etape-01-executer-main-idea.png)
 
 ---
 
 Confirmer pour exécuter
 
-![](.img/etape-01-executer-main-idea-confirm-run.png)
+![](img/etape-01-executer-main-idea-confirm-run.png)
 
 ---
 
@@ -71,7 +71,7 @@ Si le programme est **correct** (il compile),
 il est exécuté dans **une console** ouverte automatiquement
 par IntelliJ.
 
-![](.img/etape-01-executer-java-console.png)
+![](img/etape-01-executer-java-console.png)
 
 ---
 
@@ -81,7 +81,7 @@ Dans cette **console**, on trouve du texte
 2. Le texte **affiché par le programme**
 3. **exit code** : Le code de sortie du programme
 
-![](.img/etape-01-executer-java-console-commande-java.png)
+![](img/etape-01-executer-java-console-commande-java.png)
 
 ### 1 - La commande `java`
 
@@ -179,7 +179,7 @@ Lorsque le programme se termine correctement le **code de sortie** est 0.
 ### La méthode `void main() {}`
 La méthode `void main()` est le point de départ d'un programme Java.
 
-![](.img/etape-01-methode-main-bloc.png)
+![](img/etape-01-methode-main-bloc.png)
 
 ---
 
@@ -187,7 +187,7 @@ Elle comprend **un bloc** délimité par des accolades `{       }`.
 
 **Les instructions** du programme doivent se trouver **à l'intérieur des accolades** délimitant ce **bloc**.
 
-![](.img/etape-01-methode-bloc.png)
+![](img/etape-01-methode-bloc.png)
 
 ---
 
@@ -214,7 +214,7 @@ Ce texte est **donné en argument** de la méthode.
 IO.println("Hello World!");
 ```
 
-![](.img/etape-01-argument-methode.png)
+![](img/etape-01-argument-methode.png)
 
 
 ## Complétion automatique
@@ -225,7 +225,7 @@ il faut utiliser `IO.` suivi du nom de la méthode.
 > **Astuce :** lorsqu'on saisit `IO.` dans le bloc d'instructions,
 > Intellij nous aide en nous proposant les choix possibles :
 >
-> ![](.img/etape-01-io-code-completion.png)
+> ![](img/etape-01-io-code-completion.png)
 >
 > C'est ce qu'on appelle **la complétion de code**.
 >
@@ -253,13 +253,13 @@ Comment savoir à quoi servent les différentes **méthodes** disponibles dans `
 > 
 > Dans l'exemple ci-dessous, j'ai positionné ma souris au dessus du mot `println`
 > 
-> ![](.img/etape-01-javadoc-io-println.png)
+> ![](img/etape-01-javadoc-io-println.png)
 > 
 > ---
 > 
 > On peut aussi utiliser la documentation rapide sur `IO`.
 > 
-> ![](.img/etape-01-javadoc-io.png)
+> ![](img/etape-01-javadoc-io.png)
 > ---
 > 
 > Pour gagner du temps, utilisez les **raccourcis clavier**
