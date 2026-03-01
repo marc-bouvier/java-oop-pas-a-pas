@@ -1,7 +1,7 @@
 # Java OOP pas à pas
 
-Dans [ce dépôt](https://github.com/marc-bouvier/java-oop-pas-a-pas), vous trouverez 
-des exercices ainsi que leurs corrigés 
+Dans [ce dépôt](https://github.com/marc-bouvier/java-oop-pas-a-pas), vous trouverez
+des exercices ainsi que leurs corrigés
 pour découvrir une partie de la syntaxe du langage Java.
 
 Vous pouvez aussi ouvrir les instructions dans votre navigateur : [marc-bouvier.github.io/java-oop-pas-a-pas](https://marc-bouvier.github.io/java-oop-pas-a-pas/)
@@ -9,7 +9,7 @@ Vous pouvez aussi ouvrir les instructions dans votre navigateur : [marc-bouvier.
 Certains concepts de la programmation orientée objet
 seront appliqués.
 
-> "Programmation Orientée Objet" sera parfois abbrégée 
+> "Programmation Orientée Objet" sera parfois abbrégée
 > en "POO" (ou "OOP" en anglais)
 
 Cet ensemble d'exercices accompagne le site du cours que
@@ -51,5 +51,4 @@ Chaque étape est structurée de la façon suivante :
 - [Étape 00](etape-00/README.md) : Configurer Java et IntelliJ
 - [Étape 01](etape-01/README.md) : Hello World moderne en Java et lancer un programme
 - [Étape 02](etape-02/README.md) : Hello World "à l'ancienne" en Java
-- [Étape 03](etape-02/README.md) : Hello World "à l'ancienne" en Java
-- 
+- [Étape 03](etape-03/README.md) : Méthode statique et code dans plusieurs fichiers 
