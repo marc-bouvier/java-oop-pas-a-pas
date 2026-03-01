@@ -167,6 +167,14 @@ Process finished with exit code 1
 
 ## Comprendre le programme
 
+Un programme Java est lancé depuis un fichier dont le nom se termine par `.java`.
+
+Ce fichier doit contenir une méthode `void main(){}`.
+
+Les **instructions** de ce programme sont exécutées l'une après l'autre.
+
+Lorsque le programme se termine correctement le **code de sortie** est 0.
+
 
 ### La méthode `void main() {}`
 La méthode `void main()` est le point de départ d'un programme Java.
