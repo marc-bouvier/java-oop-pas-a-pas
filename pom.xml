@@ -18,7 +18,8 @@
     <modules>
         <module>etape-01/exo</module>
         <module>etape-01/correction</module>
-<!--        <module>etape-02</module>-->
+        <module>etape-02/exo</module>
+        <module>etape-02/correction</module>
 <!--        <module>etape-03</module>-->
 <!--        <module>etape-04</module>-->
 <!--        <module>etape-05</module>-->
