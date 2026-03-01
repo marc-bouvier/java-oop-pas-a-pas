@@ -5,6 +5,7 @@ Lors de cette étape, nous allons :
 - Écrire du code dans plusieurs fichiers
 
 
+
 ## Préparation
 
 Créer un fichier Java nommé `Main.java` à l'emplacement suivant : [src/main/java](exo/src/main/java).
@@ -14,8 +15,9 @@ ou la syntaxe classique (vue en [étape 02](../etape-02/README.md)).
 
 Faites en sorte que ce fichier contienne ce qu'il faut pour être **un programme Java exécutable**.
 
-
 ## Écrire du code dans plusieurs méthodes
+
+### Pourquoi éviter le code dupliqué ?
 
 Il est important de réduire **la duplication** dans le code.
 
@@ -34,9 +36,8 @@ void main() {
 La suite de l'exercice va nous permettre de mieux comprendre 
 le problème de la duplication **par le vécu**. 
 
----
 
-**1 - Ajouter le code suivant** 
+### 1 - Ajouter le code suivant 
 
 Dans votre fichier [exo/src/main/java/Main.java](exo/src/main/java/Main.java).
 
@@ -58,9 +59,8 @@ System.out.println("Hello Aeris!");
 System.out.println("Hello Pacman!");
 ```
 
----
 
-**2 - Exécutez le programme**
+### 2 - Exécutez le programme
 
 Il devrait afficher : 
 
@@ -101,7 +101,9 @@ Bonjour Coda!
 
 ---
 
-3 - Modifier le programme pour afficher `Bonjour` à la place de `Hello`.
+### 3 - Modifier le programme `Main.java`
+
+Modifier `Main.java` pour afficher `Bonjour` à la place de `Hello`.
 
 - Combien de lignes de code a-t-on dû changer ?
 
@@ -110,7 +112,7 @@ Nombre de lignes changées : <mark>`___`</mark>
 ---
 
 
-**4 - Trouver la duplication**
+### 4 - Trouver la duplication
 
 > Pour savoir **ce qui est dupliqué**, 
 > on peut se poser la question : 
@@ -144,9 +146,7 @@ Bonjour Coda!
         ||||
 ```
 
----
-
-**5 - Écrire une méthode pour réutiliser du code**
+### 5 - Écrire une méthode pour réutiliser du code
 
 Nous avons trouvé ce qui est **similaire** et ce qui est **différent**.
 
@@ -191,14 +191,16 @@ void saluer(String destinataire){
 }
 ```
 
----
 
-**6 - écrire le corps de la méthode `void saluer(String destinataire)`**
 
-Le corps de la méthode `void saluer(String destinataire)`, c'est
-les instructions contenues à l'intérieur de **son bloc**.
+### 6 - écrire le corps de la méthode `saluer`**
+
+Le **corps** de la méthode `void saluer(String destinataire)`, 
+ce sont **les instructions** contenues à l'intérieur de **son bloc**.
 
 C'est-à-dire, à l'intérieur des accolades de celle-ci.
+
+Dans le corps de la méthode `void saluer(String destinataire)` écrire l'instruction suivante : 
 
 ```java
 System.out.println("Hello " + destinataire + "!");
@@ -212,9 +214,7 @@ void saluer(String destinataire) {
 }
 ```
 
----
-
-**7 - Utiliser la méthode à la place du code précédent**
+### 7 - Utiliser la méthode à la place du code existant
 
 Nous avons **factorisé** le code dans une méthode qui peut saluer n'importe quel destinataire.
 
@@ -253,9 +253,7 @@ C'est-à-dire, remplacer le code suivant...
     saluer("Pacman");
 ```
 
----
-
-**8 - exécuter le programme**
+### 8 - exécuter le programme
 
 Exécuter le programme [exo/src/main/java/Main.java](exo/src/main/java/Main.java).
 
@@ -275,7 +273,7 @@ Hello Aeris!
 Hello Pacman!
 ```
 
-**9 - modifier la méthode `void saluer(String destinataire)`**
+### 9 - modifier la méthode `saluer`
 
 Nous avons vérifié que le programme continue d'afficher correctement les salutations.
 
@@ -288,7 +286,7 @@ void saluer(String destinataire) {
 }
 ```
 
-**10 - exécuter le programme**
+### 10 - exécuter le programme
 
 Il devrait afficher :
 
@@ -306,7 +304,7 @@ Bonjour Aeris!
 Bonjour Pacman!
 ```
 
-**11 - rétrospection**
+### 11 - rétrospection sur l'intérêt des méthodes
 
 **Après avoir créé** la méthode `saluer` et l'avoir **utilisée** depuis le programme principal.
 
@@ -324,9 +322,7 @@ Un programme qui tient sur un seul fichier est très compliqué à maintenir.
 Imaginons que nous souhaitions utiliser la méthode `void saluer(String destinataire)` à un autre endroit du programme.
 
 
----
-
-**1 - Préparer le terrain**
+### 1 - Préparer le terrain
 
 Nous devons créer le fichier dans lequel nous pourrons déplacer la méthode `saluer`.
 
@@ -353,9 +349,10 @@ public class Politesse {
 }
 ```
 
----
 
-**2 - déplacer la méthode `saluer` de `Main.java` vers `Politesse.java`**
+### 2 - déplacer la méthode `saluer`
+
+Déplacer la méthode `saluer` de `Main.java` vers `Politesse.java`**
 
 `Main.java`
 ```java
@@ -384,21 +381,27 @@ class Politesse {
 }
 ```
 
----
 
-**3 - vérifier que le code est correcte en l'exécutant**
+### 3 - Exécuter le programme
+
+Vérifier que le code est correcte en l'exécutant.
 
 Essayer de lancer le programme pour voir si ça fonctionne.
 
-```text
-java: cannot find symbol
-  symbol:   method saluer(java.lang.String)
-  location: class Main
-```
+> ❌ ERREUR ! 
+> ```text
+> java: cannot find symbol
+>   symbol:   method saluer(java.lang.String)
+>   location: class Main
+> ```
 
----
 
-**4 - Modifier **la signature** de la méthode `saluer`**
+### 4 - Corriger le problème
+
+
+#### Dans `Politesse.java`
+
+Modifier **la signature** de la méthode `saluer`**
 
 Dans le fichier `Politesse.java`.
 
@@ -408,9 +411,9 @@ En l'occurrence, ajouter `static` avant `void saluer(String destinataire)`
 static void saluer(String destinataire) {
 ```
 
----
+#### Dans `Main.java`
 
-**5 - Dans `Main.java`, modifier les appels de la méthode `saluer`**
+Dans `Main.java`, modifier les appels de la méthode `saluer`**
 
 - Retourner dans le fichier `Main.java`
 - Ajouter `Politesse.` avant chaque appel de la méthode `saluer`.
@@ -436,9 +439,9 @@ void main() {
 }
 ```
 
----
+### 5 - lancer le programme
 
-**6 - lancer le programme pour vérifier son fonctionnement**
+Exécuter le programme pour vérifier son fonctionnement.
 
 Le programme devrait fonctionner de nouveau.
 
@@ -451,7 +454,7 @@ Le programme devrait fonctionner de nouveau.
 > 
 > ![](img/etape-03-deplacement-methode-dans-autre-fichier.png)
 
-### Pourquoi `static` ?
+## Méthode `static`
 
 Le mot-clé `static` permet de dire que la méthode est statique.
 
@@ -469,12 +472,10 @@ Pour l'instant, nous pouvons nous contenter de savoir
 
 Ex. 
 ```java
-main(){
-    Politesse.saluer("Aeris");
-    
-    // 💡 IO.println est aussi une méthode statique
-    IO.println("Message");
-}
+Politesse.saluer("Aeris");
+
+// 💡 IO.println est aussi une méthode statique
+IO.println("Message");
 ```
 
 ### Déclarer une méthode statique 
