@@ -344,7 +344,7 @@ Votre arborescence de fichier devrait ressembler à ceci:
 Le contenu du fichier `Politesse.java` devrait être le suivant : 
 
 ```java
-public class Politesse {
+class Politesse {
 
 }
 ```
