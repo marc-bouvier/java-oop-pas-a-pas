@@ -193,7 +193,7 @@ void saluer(String destinataire){
 
 
 
-### 6 - écrire le corps de la méthode `saluer`**
+### 6 - écrire le corps de la méthode `saluer`
 
 Le **corps** de la méthode `void saluer(String destinataire)`, 
 ce sont **les instructions** contenues à l'intérieur de **son bloc**.
