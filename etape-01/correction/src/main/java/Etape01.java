@@ -3,7 +3,7 @@
 void main() {
 
 
-    IO.println("Hello World!");
+    int divisionParZero = 1/0;
 
 
 }
