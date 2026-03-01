@@ -1,8 +1,10 @@
-# OOP pas à pas
+# Java OOP pas à pas
 
-Dans ce dépôt, vous trouverez 
+Dans [ce dépôt](https://github.com/marc-bouvier/java-oop-pas-a-pas), vous trouverez 
 des exercices ainsi que leurs corrigés 
 pour découvrir une partie de la syntaxe du langage Java.
+
+Vous pouvez aussi ouvrir les instructions dans votre navigateur : https://marc-bouvier.github.io/java-oop-pas-a-pas/
 
 Certains concepts de la programmation orientée objet
 seront appliqués.

@@ -146,7 +146,7 @@ Process finished with exit code 0
 
 ---
 
-**Un autre code** numéro si le programmé **échoue**.
+**Un autre code** si le programmé **échoue**.
 
 Ex. Si on faisait une opération arithmétique interdite comme une division par zéro,
 
