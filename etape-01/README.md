@@ -14,7 +14,7 @@ Mais il faut écrire du code pour pouvoir en faire un vrai programme Java.
 
 ---
 
-**1 - Ouvrir le fichier `Etape01.java`** 
+### 1 - Ouvrir le fichier `Etape01.java` 
 
 Il est situé à l'emplacement suivant : [exo/src/main/java/Etape01.java](exo/src/main/java/Etape01.java)
 
@@ -29,7 +29,7 @@ Il est situé à l'emplacement suivant : [exo/src/main/java/Etape01.java](exo/sr
 
 ---
 
-**2 - Ecrire le code suivant :**
+### 2 - Écrire le code suivant
 
 ```java
 void main() {
@@ -37,9 +37,13 @@ void main() {
 }
 ```
 
----
 
-**3 - Entre les accolades du bloc `void main() {    }`** 
+
+### 3 - Écrire le corps de la méthode `main()` 
+
+Dans le corps de la méthode `main`.
+
+C'est à dire, entre les accolades du bloc `void main() {    }`
 
 - ajouter le code suivant : 
 
