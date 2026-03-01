@@ -1,9 +1,3 @@
-
-
 void main() {
-
-
-    int divisionParZero = 1/0;
-
-
+    IO.println("Hello World!");
 }
