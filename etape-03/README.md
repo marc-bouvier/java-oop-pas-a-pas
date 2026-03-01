@@ -445,7 +445,7 @@ Exécuter le programme pour vérifier son fonctionnement.
 
 Le programme devrait fonctionner de nouveau.
 
-> **💡 Astuce :** vous pouvez afficher plusieurs fichiers
+> **💡Astuce :** vous pouvez afficher plusieurs fichiers
 > en même temps dans IntelliJ
 > 
 > Par exemple : 

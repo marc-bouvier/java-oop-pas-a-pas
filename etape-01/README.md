@@ -226,7 +226,7 @@ IO.println("Hello World!");
 Pour connaitre les méthodes disponibles dans `IO`, 
 il faut utiliser `IO.` suivi du nom de la méthode.
 
-> **Astuce :** lorsqu'on saisit `IO.` dans le bloc d'instructions,
+> **💡Astuce :** lorsqu'on saisit `IO.` dans le bloc d'instructions,
 > Intellij nous aide en nous proposant les choix possibles :
 >
 > ![](img/etape-01-io-code-completion.png)
@@ -251,7 +251,7 @@ Cette documentation nous permet de savoir à quoi servent chacun des composants 
 
 Comment savoir à quoi servent les différentes **méthodes** disponibles dans `IO` ?
 
-> **Astuce :** en survolant du code avec la souris (sans cliquer),
+> **💡Astuce :** en survolant du code avec la souris (sans cliquer),
 > 
 > IntelliJ nous affiche la documentation de ce code.
 > 

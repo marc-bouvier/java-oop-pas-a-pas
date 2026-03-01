@@ -32,7 +32,7 @@ Depuis le chemin [exo/src/main/java](exo/src/main/java), créez **une nouvelle c
 
 ---
 
-> Astuce : si vous cliquez sur le dossier `src/main/java`
+> **💡Astuce :** si vous cliquez sur le dossier `src/main/java`
 > 
 > Vous pouvez utiliser un raccourci clavier pour créer un nouveau fichier
 > 
