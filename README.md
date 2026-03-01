@@ -50,4 +50,4 @@ Chaque étape est structurée de la façon suivante :
 
 - [Étape 00](etape-00/README.md) : Configurer Java et IntelliJ
 - [Étape 01](etape-01/README.md) : Hello World moderne en Java et lancer un programme
-- [Étape 02](etape-02/README.md) : Hello World "classique" en Java
+- [Étape 02](etape-02/README.md) : Hello World "à l'ancienne" en Java
