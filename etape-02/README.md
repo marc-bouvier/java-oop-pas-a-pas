@@ -6,7 +6,7 @@ Dans cette étape, nous présentons une autre façon de décrire un programme en
 - Afficher du texte avec `System.out.println()`
 - Lire et comprendre la Javadoc de `System`, `System.out` et `System.out.println`
 
-## Syntaxe "à l'ancienne"
+## Syntaxe `main()` "à l'ancienne"
 
 Avant Java 21-25, nous devions écrire un peu plus de code pour le point de départ d'un programme.
 
