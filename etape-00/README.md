@@ -5,6 +5,13 @@ est bien installé et configuré dans le projet.
 
 ## Configurer Java 25 sur votre projet
 
+Ouvrir la configuration du projet : 
+
+- File
+  - Project Structure
+
+![](img/configurer-sdk/etape-00-file-project-structure.png)
+
 > Vous devriez voir ceci
 > 
 > ![](img/configurer-sdk/etape-00-settings-project-sdk-ok.png)
