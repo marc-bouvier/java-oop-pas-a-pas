@@ -463,7 +463,9 @@ Pour l'instant, nous pouvons nous contenter de savoir
 - comment on appelle une méthode statique
 - comment on déclare une méthode statique
 
-Appeler une méthode statique : `NomDeClasse.nomDeMethode(arguments)`
+### Appeler une méthode statique
+
+`NomDeClasse.nomDeMethode(arguments)`
 
 Ex. 
 ```java
@@ -475,7 +477,7 @@ main(){
 }
 ```
 
-Déclarer une méthode statique : 
+### Déclarer une méthode statique 
 
 Dans une classe, ajouter `static` au début de la **signature** d'une méthode.
 
