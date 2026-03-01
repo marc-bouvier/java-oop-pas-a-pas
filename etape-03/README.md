@@ -352,7 +352,7 @@ class Politesse {
 
 ### 2 - déplacer la méthode `saluer`
 
-Déplacer la méthode `saluer` de `Main.java` vers `Politesse.java`**
+Déplacer la méthode `saluer` de `Main.java` vers `Politesse.java`
 
 `Main.java`
 ```java
@@ -401,7 +401,7 @@ Essayer de lancer le programme pour voir si ça fonctionne.
 
 #### Dans `Politesse.java`
 
-Modifier **la signature** de la méthode `saluer`**
+Modifier **la signature** de la méthode `saluer`
 
 Dans le fichier `Politesse.java`.
 
@@ -413,7 +413,7 @@ static void saluer(String destinataire) {
 
 #### Dans `Main.java`
 
-Dans `Main.java`, modifier les appels de la méthode `saluer`**
+Dans `Main.java`, modifier les appels de la méthode `saluer`
 
 - Retourner dans le fichier `Main.java`
 - Ajouter `Politesse.` avant chaque appel de la méthode `saluer`.
