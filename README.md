@@ -13,6 +13,8 @@ seront appliqués.
 Cet ensemble d'exercices accompagne le site du cours que
 vous trouverez à l'adresse suivante : https://bc.baldir.fr
 
+> ‼️ Ces exercices nécessitent d'utiliser **IntelliJ Idea Ultimate**
+
 ## Organisation des exercices
 
 Chaque étape est située dans son propre dossier.
