@@ -313,6 +313,7 @@ Bonjour Pacman!
 - Combien de lignes de code ont été nécessaires
   pour remplacer `Hello` par `Bonjour` ?
 
+Nombre de lignes changées : <mark>`___`</mark>
 
 ## Écrire du code dans plusieurs fichiers
 
