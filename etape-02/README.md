@@ -17,7 +17,7 @@ le point d'entrée d'un programme Java.
 
 Vous serez amenés à travailler sur des projets qui ne sont pas encore sur Java 25.
 
-## Créer une classe `Main`
+### 1 - Créer une classe `Main`
 
 Depuis le chemin [exo/src/main/java](exo/src/main/java), créez **une nouvelle classe** que vous nommerez `Main`.
 
@@ -52,7 +52,7 @@ public class Main {
 
 Pour le moment, ce n'est pas un programme car il ne contient pas de méthode `main`.
 
-## Créer une méthode `main`
+### 2 - Créer une méthode `main`
 
 Dans le fichier [exo/src/main/java/Main.java](exo/src/main/java/Main.java),
 
@@ -133,7 +133,7 @@ Avant Java 25, on doit utiliser `System.out.println()` pour afficher du texte.
 Dans le fichier [exo/src/main/java/Main.java](exo/src/main/java/Main.java),
 à l'intérieur des accolades de la méthode `public static void main(String[] args)`.
 
-**1 - Saisir le code suivant** : 
+### 1 - Saisir le code suivant 
 
 ```java
 System.out.println("Hello World!");
@@ -152,7 +152,7 @@ public class Main {
 
 ---
 
-**2 - exécuter le programme**
+### 2 - exécuter le programme
 
 > Voir [l'étape 01](../etape-01/README.md) si vous avez oublié comment faire.
 
@@ -166,18 +166,18 @@ Hello World!
 
 ## Exercice Javadoc
 
-**1 - consultez la Javadoc**
+### 1 - consultez la Javadoc
 
 > Voir [l'étape 01](../etape-01/README.md) si vous avez oublié comment faire.
 
 
-**2 - En lisant la Javadoc de `System`**
+### 2 - En lisant la Javadoc de `System`
 
 - À quelle version de Java est apparu `System` ?
 
 ---
 
-**3 - En lisant la javadoc de `System.out`**
+### 3 - En lisant la javadoc de `System.out`
 
 > The <mark>`__________`</mark> output stream.
 > This stream is already open and ready 
@@ -191,7 +191,7 @@ Quel mot devrait-on trouver
 
 ---
 
-**3 - En lisant la javadoc de `System.out.println`**
+### 4 - En lisant la javadoc de `System.out.println`
 
 > Prints a String and then terminates the line. 
 > This method behaves as though 
