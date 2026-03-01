@@ -11,8 +11,8 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <groupId>school.coda.javapoo.etape01.exo</groupId>
-    <artifactId>exo</artifactId>
-    <name>Etape 01 - exo</name>
-    
+    <groupId>school.coda.javapoo.etape02.correction</groupId>
+    <artifactId>correction</artifactId>
+    <name>Etape 02 - correction</name>
+
 </project>
