@@ -4,7 +4,7 @@ Dans [ce dépôt](https://github.com/marc-bouvier/java-oop-pas-a-pas), vous trou
 des exercices ainsi que leurs corrigés 
 pour découvrir une partie de la syntaxe du langage Java.
 
-Vous pouvez aussi ouvrir les instructions dans votre navigateur : https://marc-bouvier.github.io/java-oop-pas-a-pas/
+Vous pouvez aussi ouvrir les instructions dans votre navigateur : [marc-bouvier.github.io/java-oop-pas-a-pas](https://marc-bouvier.github.io/java-oop-pas-a-pas/)
 
 Certains concepts de la programmation orientée objet
 seront appliqués.
