@@ -112,7 +112,9 @@ main(){
 > }
 > ``` 
 
-## La bibliothèque `IO` est apparue en Java 25
+## Afficher du texte avant Java 25
+
+La bibliothèque `IO` est apparue en Java 25
 
 Avec des versions de Java plus anciennes que 25, 
 les utilitaires `IO` ne sont pas disponibles.
@@ -124,7 +126,7 @@ que cette **bibliothèque** est apparue en version 25 de Java.
 
 ![](img/etape-02-javadoc-io-since-25.png)
 
-## Afficher du texte avec `System.out.println()`
+### Afficher du texte avec `System.out.println()`
 
 Avant Java 25, on doit utiliser `System.out.println()` pour afficher du texte.
 
