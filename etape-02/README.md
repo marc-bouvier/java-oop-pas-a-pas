@@ -90,7 +90,7 @@ main(){
 
 ---
 
-## Pourquoi connaitre la syntaxe "à l'ancienne" ?
+### Pourquoi connaitre la syntaxe "à l'ancienne" ?
 
 > ‼️Si on utilise une version de Java plus ancienne que 25,
 > par exemple Java 17, 
